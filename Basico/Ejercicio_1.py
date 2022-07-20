@@ -22,3 +22,10 @@ print(f'el valor de s es %s y el valor de y es %s' %(s, y))
 #Declarar una variable con nombre "name", que tenga el valor de Juan "El profesor"
 name = "Juan 'El profesor'"
 print(name)
+
+
+#EJERCICIO 4
+import pandas as pd
+L = [10, None, 8, 5, None, 20]
+df = pd.DataFrame(L)
+df
