@@ -17,3 +17,8 @@ print(f'el valor de s es {s} y el valor de y es {y}')
 print('el valor de s es ' + str(s) + ' y el valor de y es ' + str(y))
 print('el valor de s es ', s, ' y el valor de y es ', y)
 print(f'el valor de s es %s y el valor de y es %s' %(s, y))
+
+# EJERCICIO 3
+#Declarar una variable con nombre "name", que tenga el valor de Juan "El profesor"
+name = "Juan 'El profesor'"
+print(name)
