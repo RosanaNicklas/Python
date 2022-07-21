@@ -9,7 +9,7 @@ def maximo(x,y):
         return x
     else:
         return y  
-print(maximo(25,9))
+print(maximo(10,5))
 
 
 #2) - Definir una función max_de_tres(), que tome tres números como argumentos y devuelva el mayor de ellos.
@@ -22,7 +22,7 @@ def max_de_tres(a, b, c):
     else:
         return c         
 
-print(max_de_tres(50,8,3))
+print(max_de_tres(5,8,3))
 
 #3) - Definir una función que calcule la longitud de una lista o una cadena dada. (Es cierto que python tiene la función len() incorporada,
 #pero escribirla por nosotros mismos resulta un muy buen ejercicio.
@@ -34,7 +34,7 @@ def longitud(valor):
             valor[contador]
             contador += 1
         except IndexError:
-            break
+            breaks
     return contador
 print(longitud("casa"))
 
