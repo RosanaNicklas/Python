@@ -9,7 +9,8 @@ def maximo(x,y):
         return x
     else:
         return y  
-print(maximo(25,9))        
+print(maximo(25,9))
+
 
 #2) - Definir una función max_de_tres(), que tome tres números como argumentos y devuelva el mayor de ellos.
 
@@ -54,19 +55,19 @@ vocal(caracter)
 #ejemplo: sum([1,2,3,4]) debería devolver 10 y multip([1,2,3,4]) debería devolver 24.
 
 
-sumanumeros =""
-multinumeros = ""
 def suma(numeros):
-    for numero in numeros:
-        sumanumeros += numero
-    return sumanumeros
+    suman = 0
+    for x in numeros:
+        suman = suman + x
+    return suman
 suma([1,2,3,5,6,8])
 suma([1,2,3,4])
 
-def multi(numeros):   
-    for numero in numeros:
-        multinumeros *= numero
-return multinumeros
+def multi(numeros): 
+    multin = 0  
+    for x in numeros:
+        multin = multin * x
+    return multin
 
 multi([1,2,3,5,6,8])
 multi([1,2,3,4])
