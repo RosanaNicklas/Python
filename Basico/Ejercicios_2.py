@@ -20,7 +20,7 @@ def max_de_tres(a, b, c):
     elif b > a and b > c:
         return b
     else:
-        return c         
+        return c        
 
 print(max_de_tres(5,8,3))
 
