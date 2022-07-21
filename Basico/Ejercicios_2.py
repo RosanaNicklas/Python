@@ -36,7 +36,7 @@ def longitud(valor):
         except IndexError:
             break
     return contador
-longitud("casa")
+print(longitud("casa"))
 
 
 #4) - Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario devuelve False.
@@ -48,7 +48,7 @@ def vocal(caracter):
         return True
     else:
         return False
-vocal(caracter)   
+print(vocal(caracter))   
 
 
 #5) - Escribir una función sum() y una función multip() que sumen y multipliquen respectivamente todos los números de una lista. Por
@@ -60,14 +60,14 @@ def suma(numeros):
     for x in numeros:
         suman = suman + x
     return suman
-suma([1,2,3,5,6,8])
-suma([1,2,3,4])
+print(suma([1,2,3,5,6,8]))
+print(suma([1,2,3,4]))
 
 def multi(numeros): 
-    multin = 0  
+    multin = 1  
     for x in numeros:
         multin = multin * x
     return multin
 
-multi([1,2,3,5,6,8])
-multi([1,2,3,4])
+print(multi([1,2,3,5,6,8]))
+print(multi([1,2,3,4]))
