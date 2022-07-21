@@ -34,7 +34,7 @@ def longitud(valor):
             valor[contador]
             contador += 1
         except IndexError:
-            breaks
+            break
     return contador
 print(longitud("casa"))
 
