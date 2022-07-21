@@ -14,15 +14,17 @@ print(maximo(10,5))
 
 #2) - Definir una función max_de_tres(), que tome tres números como argumentos y devuelva el mayor de ellos.
 
-def max_de_tres(a, b, c):
+def maximo_de_tres(a, b, c):
     if a > b and a > c:
         return a
     elif b > a and b > c:
         return b
+    elif c > a and c > b:
+        return c 
     else:
-        return c        
+        return("son iguales")           
 
-print(max_de_tres(5,8,3))
+print(maximo_de_tres(8,8,8))
 
 #3) - Definir una función que calcule la longitud de una lista o una cadena dada. (Es cierto que python tiene la función len() incorporada,
 #pero escribirla por nosotros mismos resulta un muy buen ejercicio.
