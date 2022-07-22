@@ -23,16 +23,13 @@ print(es_palindromo("cosa"))
  #Escribir la función usando el bucle for anidado.
 
 def superposicion(lista1,lista2):
-    comparacion = []
- 
     for i in lista1:
-        if i in lista2:
-            comparacion.append(i)
- 
-    if len(comparacion) > 0:
-        return True
-    else:
-        return False
+        for x in lista2:
+            if i == x:
+               return True
+            else:
+                return False  
+
   
 print(superposicion([1,2,3,5,4],[11,12,13,14,15]))               
 
