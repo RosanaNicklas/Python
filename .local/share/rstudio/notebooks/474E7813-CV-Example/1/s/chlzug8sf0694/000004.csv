@@ -1,0 +1,8 @@
+"0","library(tibble)"
+"0","tribble("
+"0","  ~ Degree, ~ Year, ~ Institution, ~ Where,"
+"0","  ""Informal studies"", ""1889-91"", ""Flying University"", ""Warsaw, Poland"","
+"0","  ""Master of Physics"", ""1893"", ""Sorbonne Université"", ""Paris, France"","
+"0","  ""Master of Mathematics"", ""1894"", ""Sorbonne Université"", ""Paris, France"""
+"0",") %>% "
+"0","  detailed_entries(Degree, Year, Institution, Where)"

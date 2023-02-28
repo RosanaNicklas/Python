@@ -1,0 +1,4 @@
+$ mkdir myproject
+$ cd myproject
+pip install flask
+pip install psicopg2

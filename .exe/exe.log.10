@@ -1,0 +1,47 @@
+2021-12-16 11:30:16,466 root INFO ************** eXe logging started **************
+2021-12-16 11:30:16,466 root INFO version     = 2.5-r7d52a2e113dfbb13e85417459a0ec93f687fecb2
+2021-12-16 11:30:16,466 root INFO configPath  = /Users/javier/.exe/exe.conf
+2021-12-16 11:30:16,466 root INFO exePath     = /Applications/exe.app/Contents/Resources/main.py
+2021-12-16 11:30:16,466 root INFO libPath     = /Applications/exe.app/Contents/Resources/lib/python2.7/site-packages.zip
+2021-12-16 11:30:16,466 root INFO browser     = opera
+2021-12-16 11:30:16,466 root INFO webDir      = /Applications/exe.app/Contents/Resources/exe
+2021-12-16 11:30:16,466 root INFO jsDir       = ../Resources/exe
+2021-12-16 11:30:16,466 root INFO localeDir   = ../Resources/exe/locale
+2021-12-16 11:30:16,466 root INFO port        = 51235
+2021-12-16 11:30:16,466 root INFO dataDir     = /Users/javier
+2021-12-16 11:30:16,467 root INFO configDir   = /Users/javier/.exe
+2021-12-16 11:30:16,467 root INFO locale      = es
+2021-12-16 11:30:16,467 root INFO internalAnchors = enable_all
+2021-12-16 11:30:16,467 root INFO License = creative commons: attribution - share alike 4.0
+2021-12-16 11:30:16,787 exe.webui.webserver INFO find_port(): found available eXe port# 51235
+2021-12-16 11:30:16,788 exe.application INFO serving
+2021-12-16 11:30:16,788 exe.application INFO eXe running...
+2021-12-16 11:30:16,788 exe.webui.webserver INFO run() using eXe port# 51235
+2021-12-16 11:30:16,789 exe.webui.browser INFO url http://localhost:51235/
+2021-12-16 11:30:16,998 exe.webui.browser INFO Defined Browser: Opera
+2021-12-16 11:30:17,076 exe.engine.checker INFO ****** Checking package at /Users/javier/.exe/content_template/Base.elt ******
+2021-12-16 11:30:17,078 exe.engine.checker INFO Computing content resource references
+2021-12-16 11:30:17,078 exe.engine.checker INFO Clearing resource references
+2021-12-16 11:30:17,078 exe.engine.checker INFO Adding resource references
+2021-12-16 11:30:17,079 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-16 11:30:17,079 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-16 11:30:17,079 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-16 11:30:17,079 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-16 11:30:17,229 exe.webui.packageredirectpage INFO Created a new package name=newPackage
+2021-12-16 11:30:17,293 exe.engine.checker INFO ****** Checking package at /Users/javier/.exe/content_template/Base.elt ******
+2021-12-16 11:30:17,294 exe.engine.checker INFO Computing content resource references
+2021-12-16 11:30:17,294 exe.engine.checker INFO Clearing resource references
+2021-12-16 11:30:17,294 exe.engine.checker INFO Adding resource references
+2021-12-16 11:30:17,294 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-16 11:30:17,294 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-16 11:30:17,294 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-16 11:30:17,294 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-16 11:30:22,781 exe.engine.checker INFO ****** Checking package at /Users/javier/.exe/content_template/Base.elt ******
+2021-12-16 11:30:22,782 exe.engine.checker INFO Computing content resource references
+2021-12-16 11:30:22,782 exe.engine.checker INFO Clearing resource references
+2021-12-16 11:30:22,782 exe.engine.checker INFO Adding resource references
+2021-12-16 11:30:22,782 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-16 11:30:22,782 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-16 11:30:22,782 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-16 11:30:22,782 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-16 11:37:57,486 exe.application INFO done serving

@@ -1,0 +1,361 @@
+1646655008769:5+3
+1646655358681:2/1
+1646655437406:5<3
+1646655509891:v<-1:5
+1646655777538:v[3]
+1646655816504:gema=c("jazz", "loli", "rock")
+1646655825167:gema[1]
+1646655925700:repeat
+1646655952154:if(nota<=5)
+1646655978978:mostrar "Aprovad"
+1646656026648:notas<-c(5,4,3,6,7,6,4,10)
+1646656391105:notas*2
+1646656415488:notas%%2
+1646656437591:notas<6
+1646656449911:notas==12
+1646657272965:return()
+1646730257019:año<-c(2020:2014)
+1646730273753:año
+1646730548275:gf<-(4,3,5,3,2,0,1)
+1646730593377:gf<-c(4,3,5,3,2,0,1)
+1646730646591:ge<-c(1,3,3,4,2,1,1)
+1646731088891:resultados<-data.frame(a=año,gaf=gf,gec=ge)
+1646731093051:gf
+1646731095506:ge
+1646731098955:resultados
+1646732883961:"empato"
+1646732890969:"gano"
+1646732924112:for(i in 1:7){
+1646732924113:if(resultados[i,2]<resultados[i,3]){
+1646732924116:print("gano")
+1646732924117:}
+1646732924117:else {if(resultados[i,2]==resultados[i,3]){
+1646732924117:print("empato")
+1646732924117:}
+1646732924117:else {print("perdio")
+1646732924118:}
+1646732932135:"empato"
+1646733124841:for(i in 2:4){
+1646733124841:if(resultados[i,2]<resultados[i,3]){
+1646733124845:print("gano")
+1646733124845:}
+1646733124846:else {if(resultados[i,2]==resultados[i,3]){
+1646733124846:print("empato")
+1646733124846:}
+1646733124846:else {print("perdio")}
+1646733124846:}
+1646733147102:[1] "empato"
+1646735109900:for(i in 2:4){
+1646735109900:resultado<-""
+1646735109904:if(resultados[i,2]>resultados[i,3]){
+1646735109905:resultado<-"gano"
+1646735109905:}
+1646735109905:else {if(resultados[i,2]==resultados[i,3]){
+1646735109905:resultado<-"empato"
+1646735109905:}
+1646735109905:else {resultado<-"perdio"}
+1646735109906:}
+1646735719251:for(i in c(2,5,7)){
+1646735719251:resultado<-""
+1646735719255:if(resultados[i,2]>resultados[i,3]){
+1646735719255:resultado<-"gano"
+1646735719256:}
+1646735719256:else {if(resultados[i,2]==resultados[i,3]){
+1646735719256:resultado<-"empato"
+1646735719256:}
+1646735719257:else {resultado<-"perdio"}
+1646735719257:}
+1646735719257:print(paste0(resultados[i,1]," ",resultado))
+1646735719257:}
+1646735850878:install.packages("datos")
+1646735921239:install.packages("datos")
+1646735992718:data("iris")
+1646736011758:view("iris")
+1646736111471:install.packages("datos")
+1646736241316:install.packages("datasets.load")
+1646736324469:install.packages("datasets")
+1646736365815:data("iris")
+1646736368447:force(iris)
+1646736368647:View(iris)
+1646736395181:View(iris)
+1646737834006:irisR <- read.csv("~/opt/anaconda3/pkgs/scikit-learn-0.23.2-py38h959d312_0/lib/python3.8/site-packages/sklearn/datasets/data/iris.csv", header=FALSE)
+1646737834012:View(irisR)
+1646737947849:View(iris)
+1646737970575:View(irisR)
+1646737992506:iris <- read.csv("~/opt/anaconda3/pkgs/bokeh-2.2.3-py38_0/lib/python3.8/site-packages/bokeh/sampledata/_data/iris.csv")
+1646737992507:View(iris)
+1646738031693:plot(iris)
+1646738159927:sumary(iris)
+1646738176103:summary(iris)
+1646738207766:str(iris)
+1646738599774:dim(iris)
+1646739000317:head(iris)
+1646739203589:iris$SL[1:5]
+1646739234564:getwd()
+1646740383572:instagram_global_top_1000 <- read.csv("~/Desktop/instagram_global_top_1000.csv", dec=",")
+1646740383583:View(instagram_global_top_1000)
+1646740406475:View(instagram_global_top_1000)
+1646740453738:iris <- read.csv("~/opt/anaconda3/pkgs/bokeh-2.2.3-py38_0/lib/python3.8/site-packages/bokeh/sampledata/_data/iris.csv", dec=",")
+1646740453739:View(iris)
+1646743224825:netflix_titles <- read.csv("~/Desktop/Netflix/netflix_titles.csv", sep=";")
+1646743224900:View(netflix_titles)
+1646743267685:plt(netflix_titles)
+1646765934754:messi.barca <- read.csv("~/Desktop/dossier sans titre 2/messi barca.csv", header=FALSE, dec=",")
+1646765934755:View(messi.barca)
+1646765959123:plot(messi.barca)
+1646765990906:plotbox(messi.barca)
+1646766027225:head(messi.barca)
+1646814869409:View(messi.barca)
+1646814937573:plot(messi.barca)
+1646815680067:head(messi.barca)
+1646815785517:hist(messi.barca)
+1646815901825:boxplot.matrix(messi.barca)
+1646815942858:colnames(messi.barca)
+1646815981937:rownames(messi.barca)
+1646815997768:nrow(messi.barca)
+1646816016679:ncol(messi.barca)
+1646816540216:library(datos)
+1646816554129:Titanic
+1646817286283:Titanic <- read.csv("~/Desktop/test2.csv")
+1646817286285:View(Titanic)
+1646817291657:View(messi.barca)
+1646817544058:Titanic
+1646818203378:Sumary(Titanic)
+1646818216992:summary(Titanic)
+1646818689453:library(ggplot2)
+1646818811136:ggplot(data=Titanic,aes(x=Pclass,fill=Survived))+geom_bar()
+1646818893299:View(messi.barca)
+1646818962948:View(messi.barca)
+1646818963143:View(messi.barca)
+1646819049473:library(splines)
+1646819064209:library(class)
+1646819123746:install.packages("ggplot2")
+1646819161876:library(ggplot2)
+1646819286270:ggplot(data=messi.barca,aes(x=V4=V7)) + geom_bar
+1646819359508:ggplot(data=messi.barca,aes(x=V4,V3=V7)) + geom_bar
+1646819408641:ggplot(data=messi.barca,aes(x=V4,fill=V7)) + geom_bar
+1646819480767:ggplot(data=messi.barca,aes(x=Competition,fill=Matches Played)) + geom_bar
+1646819875988:ggplot(data=messi.barca,aes(x=Competition,y=Matches Played)) + geom_bar()
+1646819920633:ggplot(data=messi.barca,aes(x=Competition,age=Matches Played)) + geom_bar()
+1646819992046:rlang::last_error()
+1646820090666:ggplot(data=messi.barca,aes(Competition,age,Matches Played)) + geom_bar()
+1646820200290:train <- read.csv("~/Desktop/train.csv")
+1646820200294:View(train)
+1646820338264:ggplot(data=train,aes(x=Sex,fill=Survived))+geom_bar
+1646820485137:train$Sex<-as.factor(train$Sex)
+1646820521383:train$Survived<-as.factor(train$Survived)
+1646820534359:ggplot(data=train,aes(x=Sex,fill=Survived))+geom_bar
+1646820589518:ggplot(data=train,aes(x=Sex,fill=Survived))+geom_bar()
+1646820624483:View(messi.barca)
+1646820685185:View(messi.barca)
+1646820772639:ggplot(data=messi.barca,aes(x=Age,fill=Goals scored))+geom_bar()mapping =
+1646820803822:View(train)
+1646820832467:View(messi.barca)
+1646820877065:ggplot(data=messi.barca,aes(x=Competition,fill=Goals scored))+geom_bar()
+1646821055746:View(messi.barca)
+1646821105432:ggplot(data=messi.barca,aes(x=Age))+geom_density()
+1646821122367:ggplot(data=messi.barca,aes(x=V2))+geom_density()
+1646821210267:ggplot(data=messi.barca,aes(x=V2))+geom_density()facet(~V7)
+1646821300017:View(train)
+1646821754527:View(messi.barca)
+1646821768519:hist(V3)
+1646821777318:hist(Age)
+1646821872379:View(messi.barca)
+1646821872598:View(messi.barca)
+1646821880755:View(messi.barca)
+1646821971399:ggplot(data=messi.barca,aes(x=Age,y=Competition,col=Goals scored))+geom_jitter()mapping =
+1646822254348:ggplot(data=messi.barca,aes(x=Age,y=Competition,col=Goals scored))+geom_bar()mapping =
+1646822263339:View(messi.barca)
+1646822265475:View(train)
+1646822860163:View(messi.barca)
+1646824063250:View(messi.barca)
+1646824063478:View(messi.barca)
+1646824067938:View(messi.barca)
+1646824114971:messi <- read.csv("~/Desktop/dossier sans titre 2/messi barca.csv", header=FALSE)
+1646824114973:View(messi)
+1646824273658:messi$V15<-NULL
+1646824285657:messi$V16<-NULL
+1646824317568:messi$V9<-NULL
+1646824337287:messi$V10<-NULL
+1646824368406:messi$V11<-NULL
+1646824382005:messi$V12<-NULL
+1646824392405:messi$V13<-NULL
+1646824403332:messi$V14<-NULL
+1646824412357:messi$V17<-NULL
+1646824534215:summary(messi)
+1646824560277:colnames(messi)
+1646824807141:rename(messi,V1=Season,V2=Age,V3=Competition,V4=Matches played,V5=Starts,V6=Minutes played,V7=Goals scored,V8=Assists)
+1646824853700:rename(messi, V1=Season, V2=Age, V3=Competition, V4=Matches played, V5=Starts, V6=Minutes played, V7=Goals scored, V8=Assists)
+1646824920623:rename(messi, Age=V2)
+1646825016202:install.packages("tidyverse")
+1646825055331:library(tidyverse)
+1646825076316:install.packages("gapminder")
+1646825169877:gapminder %>$
+1646825276785:ggplot(data=messi,aes(x=V3,Fill=V7)) + geom_bar()mapping = messi
+1646825992720:iris <- read.csv("/opt/anaconda3/pkgs/scikit-learn-0.24.2-py39hb2f4e1b_0/lib/python3.9/site-packages/sklearn/datasets/data/iris.csv", header=FALSE)
+1646825992722:View(iris)
+1646826024024:iris <- read.csv("~/opt/anaconda3/pkgs/bokeh-2.2.3-py38_0/lib/python3.8/site-packages/bokeh/sampledata/_data/iris.csv")
+1646826024025:View(iris)
+1646826159843:iris2[Iris2$Species=="Iris-setosa","SepalLengthCm"]
+1646826175754:iris[Iris$Species=="Iris-setosa","SepalLengthCm"]
+1646826311228:mean(iris$SepalLenghCm)
+1646828339098:install.packages("Amelia")
+1646828371978:library(Amelia)
+1646829715208:install.packages("rpart")
+1646829728355:library(rpart)
+1646829740664:install.packages("rattle")
+1646829784326:install.packages("rpart.plot")
+1646829795734:library(rpart.plot)
+1646830028475:install.packages("randomForest")
+1646830043012:library(randomForest)
+1646830067913:install.packages("psych")
+1646830078978:library(psych)
+1646830616716:install.packages("deducer")
+1646830640929:y
+1646830657743:install.packages("esquisse")
+1646830670906:library(esquisse)
+1646830770866:Titanic <- read.csv("~/Desktop/train.csv")
+1646830770870:View(Titanic)
+1646830779932:View(Titanic)
+1646830780281:View(Titanic)
+1646831158023:method = 'class'
+1646831278487:fancyRpartPlot(arbol)
+1646831299772:install.packages("fancycut")
+1646831309873:library(fancycut)
+1646831356215:install.packages("fancyRpart")
+1646904300590:train <- read.csv("~/Desktop/R/train.csv")
+1646904300599:View(train)
+1646904511674:test <- read.csv("~/Desktop/test2.csv")
+1646904511677:View(test)
+1646905340856:testt<-test[,1]
+1646905385126:trestt<-as.data.frame(test[,1])
+1646905432645:testt<-as.data.frame(test[,1])
+1646905472819:testt$Survived<- NULL
+1646905488418:testt$Survived<-NA
+1646905497426:view(testt)
+1646905512025:view (test)
+1646905868793:library(Amelia)
+1646905898219:library(ggplot2)
+1646905906548:library(psych)
+1646905915517:library(tidyr)
+1646905918371:library(tidyverse)
+1646905931385:library(rpart.plot)
+1646913222235:View(messi.barca)
+1646913259711:Titanic.test <- read.csv("~/Desktop/test2.csv")
+1646913259714:View(Titanic.test)
+1646913313531:Titanic.train <- read.csv("~/Desktop/train.csv")
+1646913313535:View(Titanic.train)
+1646913315807:View(messi.barca)
+1646913335359:View(Titanic.test)
+1646913337718:View(Titanic.train)
+1646913340110:View(Titanic.test)
+1646915389391:install.packages("caret")
+1646915404326:library(caret)
+1646915436043:install.packages("lattice")
+1646915449581:library(lattice)
+1646916069633:diabetes <- read.csv("~/Desktop/pima-indians-diabetes.csv", header=FALSE)
+1646916069636:View(diabetes)
+1646916072714:View(diabetes)
+1646916165874:sample_n(diabetes2, 3)
+1646916235663:install.packages("dplyr")
+1646916245976:library(dplyr)
+1646916308348:sample_n(diabetes, 3)
+1646916339194:set.seed(123)
+1646916394672:training.samples<-diabetes$diabetes $>$
+1646916761073:trainig.samples<-diabetes$diabetes %>%
+1646916803136:createDataPartition(p = 8, list = FALSE)
+1646917100934:netflix_titles <- read.csv("~/Desktop/Netflix/netflix_titles.csv", sep=";")
+1646917100996:View(netflix_titles)
+1646917445237:netflix_titles %>%
+1646917464109:ggplot() +
+1646917493204:ggplot()
+1646917500924:ggplot()
+1646917517387:netflix_titles %>%
+1646917525394:ggplot()
+1646917587699:library(dplyr)
+1646917600512:library(ggplot2)
+1646917708858:netflix_titles %>%
+1646917721090:ggplot()
+1646917759954:library(randomForest)
+1652115713750:R version
+1652116942137:install.packages("tidyverse")
+1652116961342:library(tidyverse)
+1652116989413:library(lubridate)
+1652117730240:print("coding in r")
+1652117963478:first_variable <-"This is my variable"
+1652118011621:second_variable <- 12.5
+1652118134119:vec_1 <- c(13, 48.5, 71, 101.5, 2)
+1652118727303:today()
+1652118756918:now()
+1652255970648:install.packages("tidyverse")
+1652256016025:library("ggplot2")
+1652256042407:data("diamonds")
+1652256062175:View("diamonds")
+1652268841047:install.packages("ggplot2")
+1652268858184:library(ggplot2)
+1652268897515:install.packages("palmerpenguins")
+1652268915452:library(palmerpenguins)
+1652268937185:data("penguins")
+1652268954737:View("penguins")
+1652268989967:data(penguins)View(penguins)
+1652269008327:data(penguins)
+1652269020102:View(penguins)
+1652269119795:ggplot(data = penguins) +geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+1652345952698:install.packages("vitae")
+1652345967854:library(vitae)
+1652346177264:knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+1652346177266:library(vitae)
+1652346178977:library(tibble)
+1652346179017:tribble(
+1652346179019:~ Degree, ~ Year, ~ Institution, ~ Where,
+1652346179020:"Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
+1652346179021:"Master of Physics", "1893", "Sorbonne Université", "Paris, France",
+1652346179023:"Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+1652346179024:) %>%
+1652346179025:detailed_entries(Degree, Year, Institution, Where)
+1652346188651:knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+1652346188655:library(vitae)
+1652346198000:knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+1652346198004:library(vitae)
+1652346199759:library(tibble)
+1652346199763:tribble(
+1652346199765:~ Degree, ~ Year, ~ Institution, ~ Where,
+1652346199766:"Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
+1652346199767:"Master of Physics", "1893", "Sorbonne Université", "Paris, France",
+1652346199769:"Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+1652346199770:) %>%
+1652346199772:detailed_entries(Degree, Year, Institution, Where)
+1652346209689:tribble(
+1652346209693:~Year, ~Type, ~Desc,
+1652346209694:1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+1652346209696:1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+1652346209697:) %>%
+1652346209699:brief_entries(
+1652346209700:glue::glue("Nobel Prize in {Type}"),
+1652346209701:Year,
+1652346209702:Desc
+1652346209703:)
+1652346217968:library(dplyr)
+1652346217982:knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+1652346218042:bibliography_entries("packages.bib") %>%
+1652346218043:arrange(desc(author$family), issued)
+1652347390180:colnames(flavors_df)
+1652347446842:bars_df <- read_csv("flavors_of_cacao.csv")
+1652349775842:data()
+1652350266828:data(flavors_of_cacao)
+1652350289222:data("flavors_of_cacao")
+1652350331978:installed.packages(here)
+1652351072276:load("~/Desktop/flavors_of_cacao.csv")
+1652351098433:load("~/Downloads/flavors_of_cacao.csv")
+1652351119922:View(Titanic.train)
+1653481477763:4+2
+1653481491886:2+3
+1653483106762:`202105.divvy.tripdata` <- read.csv("~/Desktop/202105-divvy-tripdata.csv", dec=",")
+1653483113654:View(`202105.divvy.tripdata`)
+1653483397971:`202105.divvy.tripdata` <- read.csv("~/Desktop/202105-divvy-tripdata.csv")
+1653483402333:View(`202105.divvy.tripdata`)
+1653483668838:head()
+1653483712172:View(`202105.divvy.tripdata`)
+1653483787261:bicycle <- read.csv("~/Desktop/bicycle.csv")
+1653483791468:View(bicycle)
+1653483802607:head(bicycle)

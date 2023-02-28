@@ -1,0 +1,123 @@
+[kited] 2022/12/22 18:31:26.997719 app.go:197: listening at port: 46624
+[kited] 2022/12/22 18:31:26.997803 app.go:198: machine ID: acc78a496a5ee68c9cebcadcf7efa2af
+[kited] 2022/12/22 18:31:26.997815 app.go:199: install ID: 91b2cf73-fa56-4037-9e2b-b22df80d22ab
+[kited] 2022/12/22 18:31:26.997823 app.go:200: OS: darwin
+[kited] 2022/12/22 18:31:26.997912 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i7-4771 CPU @ 3.50GHz, family 6, model 60, 4 cores, 8 threads, flags: AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,NX,POPCNT,RDRAND,RDTSCP,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2022/12/22 18:31:26.997929 app.go:202: platform: darwin Standalone Workstation 10.13.6
+[kited] 2022/12/22 18:31:26.997937 app.go:203: root dir: /Users/javier/.kite
+[kited] 2022/12/22 18:31:26.997944 app.go:204: log file: /Users/javier/.kite/logs/client.log
+[kited] 2022/12/22 18:31:26.997952 app.go:205: dev mode: false
+[kited] 2022/12/22 18:31:26.997959 app.go:206: version: 0.20210610.0
+[kited] 2022/12/22 18:31:26.997967 app.go:207: configuration: Release
+[kited] 2022/12/22 18:31:26.997985 app.go:214: proxy: environment
+[kited] 2022/12/22 18:31:26.999857 plugins.go:158: error loading 'encountered_editors' value: no value for key "encountered_editors" found
+[kited] 2022/12/22 18:31:27.010209 manager.go:173: using tf_threads value of 1
+[kited] 2022/12/22 18:31:27.664161 manager.go:385: walking root dir /Users/javier
+[kited] 2022/12/22 18:31:27.665124 manager.go:263: watching dir /Users/javier
+[kited] 2022/12/22 18:31:27.706190 client.go:172: Successfully loaded 0 licenses
+[kited] 2022/12/22 18:31:27.707626 app.go:341: using startup mode: SystemBoot
+[kited] 2022/12/22 18:31:27.707654 app.go:342: using startup channel: 
+[kited] 2022/12/22 18:31:27.707876 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2022/12/22 18:31:27.707937 state.go:75: track: setting user ids User{id:0 email: installID:91b2cf73-fa56-4037-9e2b-b22df80d22ab machineID:acc78a496a5ee68c9cebcadcf7efa2af}
+[kited] 2022/12/22 18:31:32.743308 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/91b2cf73-fa56-4037-9e2b-b22df80d22ab": dial tcp 241.1.1.1:443: i/o timeout 200ms
+[kited] 2022/12/22 18:31:32.781322 http.go:146: received login event
+[kited] 2022/12/22 18:31:32.781412 plugins.go:171: activated GoTick in plugin manager
+[kited] 2022/12/22 18:31:32.827354 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2022/12/22 18:31:35.495283 track.go:167: tracker.Event: Found Editors
+[kited] 2022/12/22 18:31:35.495389 track.go:167: tracker.Event: Found Installed Plugins
+[kited] 2022/12/22 18:31:35.553696 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2022/12/22 18:31:35.553977 plugins_helpers.go:104: attempting to update vim
+[kited] 2022/12/22 18:31:35.904784 track.go:167: tracker.Event: Background Library Walk Completed
+[kited] 2022/12/22 18:31:35.904845 manager.go:401: Library dirs: 15
+[kited] 2022/12/22 18:31:35.904867 manager.go:402: Walk took: 8.240484043s
+[kited] 2022/12/22 18:31:35.904885 manager.go:406: finished walking root dir /Users/javier
+[kited] 2022/12/22 18:31:35.976930 track.go:167: tracker.Event: Successful Plugin Updates
+[kited] 2022/12/22 18:31:37.802508 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 200ms
+[kited] 2022/12/22 18:31:37.820115 manager.go:378: identifying with id: 811572
+[kited] 2022/12/22 18:31:42.820537 client.go:284: scheduled license refresh error: error fetching /api/account/licenses?install-id=91b2cf73-fa56-4037-9e2b-b22df80d22ab: Get "https://alpha.kite.com/api/account/licenses?install-id=91b2cf73-fa56-4037-9e2b-b22df80d22ab": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:31:43.004275 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 400ms
+[kited] 2022/12/22 18:31:43.595669 track.go:157: error updating customer.io user properties 401: https://track.customer.io/api/v1/customers/811572 {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+
+[kited] 2022/12/22 18:31:48.407304 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 800ms
+[kited] 2022/12/22 18:31:54.210620 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 1.6s
+[kited] 2022/12/22 18:32:00.814020 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 3.2s
+[kited] 2022/12/22 18:32:05.514797 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:32:09.016958 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 6.4s
+[kited] 2022/12/22 18:32:20.420465 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 12.8s
+[kited] 2022/12/22 18:32:35.520389 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:32:38.223132 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 25.6s
+[kited] 2022/12/22 18:33:05.520747 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:33:08.828601 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 51.2s
+[kited] 2022/12/22 18:33:35.523557 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:34:05.029031 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 1m42.4s
+[kited] 2022/12/22 18:35:52.432296 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 3m24.8s
+[kited] 2022/12/22 18:39:22.223186 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 6m49.6s
+[kited] 2022/12/22 18:41:32.906538 handlers.go:68: GET /clientapi/plugins 200 4872 5.897254673s
+[kited] 2022/12/22 18:41:32.928709 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2022/12/22 18:41:33.347044 track.go:119: error sending Customer.io event uninstalled_plugin_detected: 401: https://track.customer.io/api/v1/customers/811572/events {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+[kited] 2022/12/22 18:42:02.959217 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:46:16.822490 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 18:46:27.650660 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2022/12/22 18:46:27.650661 api.go:96: Unloading data for python
+[kited] 2022/12/22 18:51:32.574324 handlers.go:68: GET /clientapi/plugins 200 4872 5.607945335s
+[kited] 2022/12/22 18:51:32.589839 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2022/12/22 18:51:32.902983 track.go:119: error sending Customer.io event uninstalled_plugin_detected: 401: https://track.customer.io/api/v1/customers/811572/events {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+[kited] 2022/12/22 18:52:02.594675 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 18:56:21.801290 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 19:01:27.700456 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2022/12/22 19:01:32.982140 handlers.go:68: GET /clientapi/plugins 200 4872 6.031166944s
+[kited] 2022/12/22 19:01:32.997264 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2022/12/22 19:01:33.320212 track.go:119: error sending Customer.io event uninstalled_plugin_detected: 401: https://track.customer.io/api/v1/customers/811572/events {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+[kited] 2022/12/22 19:02:03.022823 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 19:06:26.777886 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 19:11:32.527819 handlers.go:68: GET /clientapi/plugins 200 4872 5.614139864s
+[kited] 2022/12/22 19:11:32.543861 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2022/12/22 19:11:32.866077 track.go:119: error sending Customer.io event uninstalled_plugin_detected: 401: https://track.customer.io/api/v1/customers/811572/events {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+[kited] 2022/12/22 19:12:02.564619 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 19:16:31.768794 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 19:21:32.641579 handlers.go:68: GET /clientapi/plugins 200 4872 5.739659395s
+[kited] 2022/12/22 19:21:32.657564 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2022/12/22 19:21:33.544216 track.go:119: error sending Customer.io event uninstalled_plugin_detected: 401: https://track.customer.io/api/v1/customers/811572/events {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+[kited] 2022/12/22 19:22:02.686900 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 19:26:36.752756 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 19:31:27.624425 editorslist.go:19: Detected 1 running editors with 0 new entries, purged 0 entries
+[kited] 2022/12/22 19:31:32.786063 handlers.go:68: GET /clientapi/plugins 200 4872 5.924485771s
+[kited] 2022/12/22 19:31:32.802766 track.go:167: tracker.Event: uninstalled_plugin_detected
+[kited] 2022/12/22 19:31:33.224707 track.go:119: error sending Customer.io event uninstalled_plugin_detected: 401: https://track.customer.io/api/v1/customers/811572/events {
+  "meta": {
+    "error": "Unauthorized request"
+  }
+}
+[kited] 2022/12/22 19:31:41.761779 plugins.go:171: activated GoTick in plugin manager
+[kited] 2022/12/22 19:31:41.791048 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2022/12/22 19:32:02.815816 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 19:36:41.751523 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 19:41:32.384496 handlers.go:68: GET /clientapi/plugins 200 4873 5.538005191s
+[kited] 2022/12/22 19:42:02.415709 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout
+[kited] 2022/12/22 19:46:46.724891 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/811572": dial tcp 241.1.1.1:443: i/o timeout 10m0s
+[kited] 2022/12/22 20:01:28.837429 handlers.go:68: GET /clientapi/plugins 200 4873 5.538460894s
+[kited] 2022/12/22 20:01:58.861070 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp 241.1.1.1:443: i/o timeout

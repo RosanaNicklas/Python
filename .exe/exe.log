@@ -1,0 +1,84 @@
+2021-12-20 20:05:33,709 root INFO ************** eXe logging started **************
+2021-12-20 20:05:33,709 root INFO version     = 2.5-r7d52a2e113dfbb13e85417459a0ec93f687fecb2
+2021-12-20 20:05:33,709 root INFO configPath  = /Users/javier/.exe/exe.conf
+2021-12-20 20:05:33,709 root INFO exePath     = /Applications/exe.app/Contents/Resources/main.py
+2021-12-20 20:05:33,709 root INFO libPath     = /Applications/exe.app/Contents/Resources/lib/python2.7/site-packages.zip
+2021-12-20 20:05:33,709 root INFO browser     = opera
+2021-12-20 20:05:33,710 root INFO webDir      = /Applications/exe.app/Contents/Resources/exe
+2021-12-20 20:05:33,710 root INFO jsDir       = ../Resources/exe
+2021-12-20 20:05:33,710 root INFO localeDir   = ../Resources/exe/locale
+2021-12-20 20:05:33,710 root INFO port        = 51235
+2021-12-20 20:05:33,710 root INFO dataDir     = /Users/javier
+2021-12-20 20:05:33,710 root INFO configDir   = /Users/javier/.exe
+2021-12-20 20:05:33,710 root INFO locale      = es
+2021-12-20 20:05:33,710 root INFO internalAnchors = enable_all
+2021-12-20 20:05:33,710 root INFO License = creative commons: attribution - share alike 4.0
+2021-12-20 20:05:34,014 exe.webui.webserver INFO find_port(): found available eXe port# 51235
+2021-12-20 20:05:34,015 exe.application INFO serving
+2021-12-20 20:05:34,015 exe.application INFO eXe running...
+2021-12-20 20:05:34,015 exe.webui.webserver INFO run() using eXe port# 51235
+2021-12-20 20:05:34,016 exe.webui.browser INFO url http://localhost:51235/
+2021-12-20 20:05:34,224 exe.webui.browser INFO Defined Browser: Opera
+2021-12-20 20:05:34,307 exe.engine.checker INFO ****** Checking package at /Users/javier/.exe/content_template/Base.elt ******
+2021-12-20 20:05:34,309 exe.engine.checker INFO Computing content resource references
+2021-12-20 20:05:34,309 exe.engine.checker INFO Clearing resource references
+2021-12-20 20:05:34,309 exe.engine.checker INFO Adding resource references
+2021-12-20 20:05:34,309 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-20 20:05:34,309 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-20 20:05:34,309 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-20 20:05:34,310 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-20 20:05:34,442 exe.webui.packageredirectpage INFO Created a new package name=newPackage
+2021-12-20 20:05:34,488 exe.engine.checker INFO ****** Checking package at /Users/javier/.exe/content_template/Base.elt ******
+2021-12-20 20:05:34,489 exe.engine.checker INFO Computing content resource references
+2021-12-20 20:05:34,489 exe.engine.checker INFO Clearing resource references
+2021-12-20 20:05:34,489 exe.engine.checker INFO Adding resource references
+2021-12-20 20:05:34,489 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-20 20:05:34,489 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-20 20:05:34,489 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-20 20:05:34,489 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-20 20:05:38,547 exe.engine.checker INFO ****** Checking package at /Users/javier/.exe/content_template/Base.elt ******
+2021-12-20 20:05:38,560 exe.engine.checker INFO Computing content resource references
+2021-12-20 20:05:38,560 exe.engine.checker INFO Clearing resource references
+2021-12-20 20:05:38,560 exe.engine.checker INFO Adding resource references
+2021-12-20 20:05:38,560 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-20 20:05:38,560 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-20 20:05:38,560 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-20 20:05:38,560 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-20 20:05:44,955 exe.engine.checker INFO ****** Checking package at /Users/javier/Desktop/exe learning/multimedia.elp ******
+2021-12-20 20:05:44,956 exe.engine.checker INFO Computing content resource references
+2021-12-20 20:05:44,957 exe.engine.checker ERROR No parent node for field in idevice textIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice ListaIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice ListaIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice ListaIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,958 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice QuizTestIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker ERROR No parent node for field in idevice textIdevice in node Accesibilidad! Fixing...
+2021-12-20 20:05:44,959 exe.engine.checker INFO Clearing resource references
+2021-12-20 20:05:44,960 exe.engine.checker INFO Adding resource references
+2021-12-20 20:05:44,965 exe.engine.checker INFO Checking nodeResourcesChecksums
+2021-12-20 20:05:44,978 exe.engine.checker INFO Checking packageResourcesChecksums
+2021-12-20 20:05:44,983 exe.engine.checker INFO Checking packageResourcesNonReferenced
+2021-12-20 20:05:44,988 exe.engine.checker INFO Checking packageResourcesZombies
+2021-12-20 20:13:31,359 exe.webui.testquestionelement INFO process {'clozeFlag48_116.checkCaps': [u'false'], 'clientHandleId': [u'0bbeec354815c9c97614cc939f3f5894-2'], 'currentNode': [u'12'], 'object': [u'0'], 'isChanged': [u'0'], 'clozeFlag48_116.instantMarking': [u'false'], 'passrate': [u'50'], 'clozeOtras48_116': [u''], 'action': [u'changeNode'], 'clozeFlag48_116.strictMarking': [u'false']}
+2021-12-20 20:13:31,359 exe.webui.testquestionelement INFO process {'clozeFlag48_116.checkCaps': [u'false'], 'clientHandleId': [u'0bbeec354815c9c97614cc939f3f5894-2'], 'currentNode': [u'12'], 'object': [u'0'], 'isChanged': [u'0'], 'clozeFlag48_116.instantMarking': [u'false'], 'passrate': [u'50'], 'clozeOtras48_116': [u''], 'action': [u'changeNode'], 'clozeFlag48_116.strictMarking': [u'false']}
+2021-12-20 20:13:31,359 exe.webui.testquestionelement INFO process {'clozeFlag48_116.checkCaps': [u'false'], 'clientHandleId': [u'0bbeec354815c9c97614cc939f3f5894-2'], 'currentNode': [u'12'], 'object': [u'0'], 'isChanged': [u'0'], 'clozeFlag48_116.instantMarking': [u'false'], 'passrate': [u'50'], 'clozeOtras48_116': [u''], 'action': [u'changeNode'], 'clozeFlag48_116.strictMarking': [u'false']}
+2021-12-20 20:14:20,220 exe.webui.testquestionelement INFO process {'clozeFlag48_116.checkCaps': [u'false'], 'clientHandleId': [u'0bbeec354815c9c97614cc939f3f5894-2'], 'key0b49': [u'0'], 'currentNode': [u'12'], 'object': [u''], 'isChanged': [u'0'], 'key2b49': [u'2'], 'clozeFlag48_116.instantMarking': [u'false'], 'passrate': [u'50'], 'clozeOtras48_116': [u''], 'action': [u''], 'key1b49': [u'2'], 'clozeFlag48_116.strictMarking': [u'false'], 'submitScore': [u'ENVIAR RESPUESTAS']}
+2021-12-20 20:14:20,221 exe.webui.testquestionelement INFO process {'clozeFlag48_116.checkCaps': [u'false'], 'clientHandleId': [u'0bbeec354815c9c97614cc939f3f5894-2'], 'key0b49': [u'0'], 'currentNode': [u'12'], 'object': [u''], 'isChanged': [u'0'], 'key2b49': [u'2'], 'clozeFlag48_116.instantMarking': [u'false'], 'passrate': [u'50'], 'clozeOtras48_116': [u''], 'action': [u''], 'key1b49': [u'2'], 'clozeFlag48_116.strictMarking': [u'false'], 'submitScore': [u'ENVIAR RESPUESTAS']}
+2021-12-20 20:14:20,221 exe.webui.testquestionelement INFO process {'clozeFlag48_116.checkCaps': [u'false'], 'clientHandleId': [u'0bbeec354815c9c97614cc939f3f5894-2'], 'key0b49': [u'0'], 'currentNode': [u'12'], 'object': [u''], 'isChanged': [u'0'], 'key2b49': [u'2'], 'clozeFlag48_116.instantMarking': [u'false'], 'passrate': [u'50'], 'clozeOtras48_116': [u''], 'action': [u''], 'key1b49': [u'2'], 'clozeFlag48_116.strictMarking': [u'false'], 'submitScore': [u'ENVIAR RESPUESTAS']}
+2021-12-20 20:14:20,221 exe.webui.quiztestblock INFO userAns 0: correctans 0
+2021-12-20 20:14:20,221 exe.webui.quiztestblock INFO userAns 2: correctans 2
+2021-12-20 20:14:20,221 exe.webui.quiztestblock INFO userAns 2: correctans 2
+2021-12-20 20:15:45,035 exe.application INFO done serving
